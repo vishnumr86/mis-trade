@@ -1,0 +1,8 @@
+name = "mis-dashboard"
+pages_build_output_dir = "dist"
+compatibility_date = "2025-01-01"
+
+# Paste the namespace id printed by: npx wrangler kv namespace create MIS_DATA
+[[kv_namespaces]]
+binding = "MIS_DATA"
+id = "REPLACE_WITH_KV_NAMESPACE_ID"
